@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#splash{
+  display: block;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  bottom:0;
+  max-width: 100%;
+  background-color: purple;
+  z-index: 10;
+}
+
+#splash .fa-fw{
+  margin: 10% 35%;
+  vertical-align: middle;
+  color: white;
+  opacity: 0.3;
+}
+
+#splash img{
+  max-width: 80%;
+  margin: 35% 10% 0 10%;
+  vertical-align: middle;
+}
+
+.enter-section{
+  max-width: 100%;
+  background-image: url("../assets/img/night-car.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: scale-down;
+}
+
+.lyft_white_logo_header{
+  width: 30%;
+  padding: 1%;
+  margin-left: 35%;
+}
+
+.lyft_lyfe{
+  max-width: 100%;
+  padding: 25% 3%;
+}
+
+.enter-button{
+  background-color: black;
+  opacity: 0.3;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  padding: 10% 15%;
+}
